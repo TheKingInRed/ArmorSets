@@ -1,0 +1,140 @@
+name: ArmorSets
+version: 1.1.0
+main: com.sajed.armorsets.ArmorSetsPlugin
+api-version: '1.21'
+author: Sajed
+
+commands:
+  setemeraldset:
+    description: Open Emerald customization GUI
+    permission: armorsets.admin
+  setrubyset:
+    description: Open Ruby customization GUI
+    permission: armorsets.admin
+  settitaniumset:
+    description: Open Titanium customization GUI
+    permission: armorsets.admin
+  setvibraniumset:
+    description: Open Vibranium customization GUI
+    permission: armorsets.admin
+  setadamantiumset:
+    description: Open Adamantium customization GUI
+    permission: armorsets.admin
+  setvenomset:
+    description: Open Venom customization GUI
+    permission: armorsets.admin
+
+  setemeraldhelmet:
+    description: Convert held helmet to Emerald
+    permission: armorsets.admin
+  setemeraldchestplate:
+    description: Convert held chestplate to Emerald
+    permission: armorsets.admin
+  setemeraldleggings:
+    description: Convert held leggings to Emerald
+    permission: armorsets.admin
+  setemeraldboots:
+    description: Convert held boots to Emerald
+    permission: armorsets.admin
+
+  setrubyhelmet:
+    description: Convert held helmet to Ruby
+    permission: armorsets.admin
+  setrubychestplate:
+    description: Convert held chestplate to Ruby
+    permission: armorsets.admin
+  setrubyleggings:
+    description: Convert held leggings to Ruby
+    permission: armorsets.admin
+  setrubyboots:
+    description: Convert held boots to Ruby
+    permission: armorsets.admin
+
+  settitaniumhelmet:
+    description: Convert held helmet to Titanium
+    permission: armorsets.admin
+  settitaniumchestplate:
+    description: Convert held chestplate to Titanium
+    permission: armorsets.admin
+  settitaniumleggings:
+    description: Convert held leggings to Titanium
+    permission: armorsets.admin
+  settitaniumboots:
+    description: Convert held boots to Titanium
+    permission: armorsets.admin
+
+  setvibraniumhelmet:
+    description: Convert held helmet to Vibranium
+    permission: armorsets.admin
+  setvibraniumchestplate:
+    description: Convert held chestplate to Vibranium
+    permission: armorsets.admin
+  setvibraniumleggings:
+    description: Convert held leggings to Vibranium
+    permission: armorsets.admin
+  setvibraniumboots:
+    description: Convert held boots to Vibranium
+    permission: armorsets.admin
+
+  setadamantiumhelmet:
+    description: Convert held helmet to Adamantium
+    permission: armorsets.admin
+  setadamantiumchestplate:
+    description: Convert held chestplate to Adamantium
+    permission: armorsets.admin
+  setadamantiumleggings:
+    description: Convert held leggings to Adamantium
+    permission: armorsets.admin
+  setadamantiumboots:
+    description: Convert held boots to Adamantium
+    permission: armorsets.admin
+
+  setvenomhelmet:
+    description: Convert held helmet to Venom
+    permission: armorsets.admin
+  setvenomchestplate:
+    description: Convert held chestplate to Venom
+    permission: armorsets.admin
+  setvenomleggings:
+    description: Convert held leggings to Venom
+    permission: armorsets.admin
+  setvenomboots:
+    description: Convert held boots to Venom
+    permission: armorsets.admin
+
+  getemeraldset:
+    description: Get a full Emerald armor set
+    permission: armorsets.getset
+  getrubyset:
+    description: Get a full Ruby armor set
+    permission: armorsets.getset
+  gettitaniumset:
+    description: Get a full Titanium armor set
+    permission: armorsets.getset
+  getvibraniumset:
+    description: Get a full Vibranium armor set
+    permission: armorsets.getset
+  getadamantiumset:
+    description: Get a full Adamantium armor set
+    permission: armorsets.getset
+  getvenomset:
+    description: Get a full Venom armor set
+    permission: armorsets.getset
+
+  getset:
+    description: Get a full armor set
+    usage: /getset <emerald|ruby|titanium|vibranium|adamantium|venom>
+    permission: armorsets.getset
+
+  venomregion:
+    description: Manage Venom protected regions
+    usage: /venomregion <pos1|pos2|list|clear [index]>
+    permission: armorsets.admin
+
+permissions:
+  armorsets.admin:
+    description: Access to armor customization and conversion commands
+    default: op
+  armorsets.getset:
+    description: Access to armor set giving commands
+    default: op
